@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CurrencySelectorComponent snapshot 1`] = `
+<div
+  className="w-28 bg-gray-100 rounded-lg shadow-lg relative"
+>
+  <button
+    className="w-full h-full flex justify-between items-center gap-1  p-4"
+    onClick={[Function]}
+  >
+    USD
+    <svg
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+          "transform": "rotate(180deg)",
+        }
+      }
+      viewBox="0 0 512 512"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M464 464H48a16 16 0 0 1-14.07-23.62l208-384a16 16 0 0 1 28.14 0l208 384A16 16 0 0 1 464 464z"
+      />
+    </svg>
+  </button>
+</div>
+`;

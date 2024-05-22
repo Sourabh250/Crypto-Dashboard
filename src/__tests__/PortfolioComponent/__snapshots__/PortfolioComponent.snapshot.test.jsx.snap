@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PortfolioComponent snapshot 1`] = `
+<div
+  className="bg-gray-100 rounded-lg shadow-lg py-4 px-8 flex flex-col"
+>
+  <div
+    className="flex items-center justify-between gap-4"
+  >
+    <h1
+      className="text-center text-xl font-semibold"
+    >
+      Portfolio
+    </h1>
+    <h1
+      className="font-light"
+    >
+      Total value: 
+      <span
+        className="font-semibold"
+      >
+        $
+        1000
+      </span>
+    </h1>
+  </div>
+  <div
+    className="flex justify-center items-center mt-4"
+  >
+    <canvas
+      height={150}
+      role="img"
+      width={300}
+    />
+  </div>
+</div>
+`;

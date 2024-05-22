@@ -1,0 +1,37 @@
+/* Resetting default margin and padding on HTML and body */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Styling for the thumb of the custom scrollbar */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #b3b3b3;
+  border-radius: 6px;
+}
+
+/* Animation keyframes for spinning effect */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Styles for the spinner element */
+.spinner {
+  border: 4px solid rgba(255, 255, 255,0.3);
+  border-top: 5px solid #3498db;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}

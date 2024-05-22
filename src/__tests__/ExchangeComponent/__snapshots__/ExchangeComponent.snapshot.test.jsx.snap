@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ExchangeComponent snapshot 1`] = `
+<div
+  className="bg-gray-100 rounded-lg shadow-lg p-4"
+>
+  <h1
+    className="text-xl font-semibold"
+  >
+    Exchange Coins
+  </h1>
+  <div
+    className="flex gap-4 lg:gap-8 my-6 items-center justify-center sm:justify-normal"
+  >
+    <h1
+      className="text-red-600"
+    >
+      Sell
+    </h1>
+    <div
+      className="w-36 relative"
+    >
+      <button
+        className="w-full bg-gray-200 px-4 py-2 rounded flex justify-between items-center gap-2"
+        onClick={[Function]}
+      >
+        Btc
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+              "transform": "rotate(180deg)",
+            }
+          }
+          viewBox="0 0 512 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M464 464H48a16 16 0 0 1-14.07-23.62l208-384a16 16 0 0 1 28.14 0l208 384A16 16 0 0 1 464 464z"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      className="relative w-36"
+    >
+      <label
+        className="block text-sm font-medium text-gray-700 absolute -top-6"
+        htmlFor="sell-value"
+      >
+        Enter value
+      </label>
+      <input
+        className="w-full px-4 py-2 rounded"
+        id="sell-value"
+        onChange={[Function]}
+      />
+    </div>
+  </div>
+  <div
+    className="flex gap-4 lg:gap-8 items-center justify-center sm:justify-normal"
+  >
+    <h1
+      className="text-green-600"
+    >
+      Buy
+    </h1>
+    <div
+      className="w-36 relative"
+    >
+      <button
+        className="w-full bg-gray-200 px-4 py-2 rounded flex justify-between items-center gap-2"
+        onClick={[Function]}
+      >
+        Eth
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            Object {
+              "color": undefined,
+              "transform": "rotate(180deg)",
+            }
+          }
+          viewBox="0 0 512 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M464 464H48a16 16 0 0 1-14.07-23.62l208-384a16 16 0 0 1 28.14 0l208 384A16 16 0 0 1 464 464z"
+          />
+        </svg>
+      </button>
+    </div>
+    <div
+      className="w-36 text-center text-green-600"
+    />
+  </div>
+  <div
+    className="mt-6 flex justify-center"
+  >
+    <button
+      className="bg-blue-600 px-4 py-2 rounded-md text-gray-200"
+      onClick={[Function]}
+    >
+      Exchange
+    </button>
+  </div>
+</div>
+`;
