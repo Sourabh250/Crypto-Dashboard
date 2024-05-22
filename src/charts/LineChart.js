@@ -1,6 +1,5 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
-import { Chart as ChartJS } from "chart.js/auto"; // Importing ChartJS from chart.js/auto
 import { useSelector } from "react-redux";
 
 function LineChart({ ChartData }) {
