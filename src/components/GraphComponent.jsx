@@ -26,13 +26,15 @@ function GraphComponent() {
   const [searchTerm, setSearchTerm] = useState("");
   const [isLoading, setIsLoading] = useState(false);
 
-  // Debounced search handler
-  const handleSearchChange = useCallback(
-    debounce((value) => {
-      setSearchTerm(value);
-    }, 800),
-    []
-  );
+  // Debounced search handler  
+
+  const debouncedSearchTerm = debounce((value) => {
+    setSearchTerm(value);
+  }, 800);
+
+  const handleSearchChange = useCallback((value) => {
+    debouncedSearchTerm(value);
+  }, [debouncedSearchTerm]);
 
   // Fetches the cryptocurrency list
   useEffect(() => {
@@ -198,7 +200,7 @@ function GraphComponent() {
   };
 
   useEffect(() => {
-    fetchHistoricalData();
+    fetchHistoricalData(); // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [reduxCurrency, reduxSelectedCurrencies, timeFrame]);
 
   const timeFrames = ["1D", "1W", "1M", "6M", "1Y"];
